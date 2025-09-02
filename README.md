@@ -15,27 +15,22 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 ```
-# Program to find the solution for the given linear equations
-# Developed by: Mukesh D
-# RegisterNumber: 212224640204
-
+#Program to find the rank of a matrix.
+#Developed by: Mukesh D
+#RegisterNumber:212224040204
 import numpy as np
 
-# Coefficient matrix
-A = np.array([[1, -3],
-              [3,  1]])
+A = np.array([[1, 2, 3],
+              [3, 6, 9]])
 
-# Constant matrix
-B = np.array([0, 10])
+# Print only the rank (no extra text)
+print(np.linalg.matrix_rank(A))
 
-# Solve the system
-solution = np.linalg.solve(A, B)
-
-print(solution)
 
 ```
 ## Output:
-<img width="1512" height="927" alt="image" src="https://github.com/user-attachments/assets/2c489fa7-de12-46d4-8381-298a2da9a544" />
+<img width="1322" height="869" alt="image" src="https://github.com/user-attachments/assets/86214218-b726-43ef-af50-afeda08e3c68" />
+
 
 
 ## Result: 
